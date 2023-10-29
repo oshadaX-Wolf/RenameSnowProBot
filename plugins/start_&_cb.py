@@ -22,7 +22,7 @@ async def start(client, message):
         InlineKeyboardButton(
             '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+HzGpLAZXTxoyYTNl'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+mCdsJ7mjeBEyZWQ1')
+            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/anumitultrabots')
     ], [
         InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
@@ -66,7 +66,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton(
                     '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+HzGpLAZXTxoyYTNl'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+mCdsJ7mjeBEyZWQ1')
+                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/anumitultrabots')
             ], [
                 InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
