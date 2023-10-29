@@ -20,7 +20,7 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+HzGpLAZXTxoyYTNl'),
+            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/anumitultrabots'),
         InlineKeyboardButton(
             '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/anumitultrabots')
     ], [
@@ -64,7 +64,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+HzGpLAZXTxoyYTNl'),
+                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/anumitultrabots'),
                 InlineKeyboardButton(
                     '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/anumitultrabots')
             ], [
